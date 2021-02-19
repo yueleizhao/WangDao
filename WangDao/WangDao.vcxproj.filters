@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="computer_test\chapter_one\inverse_order  .cpp">
+    <ClCompile Include="computer_test\chapter_one\symmetric_square.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
