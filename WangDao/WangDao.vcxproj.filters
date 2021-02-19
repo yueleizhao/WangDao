@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WangDao.cpp">
+    <ClCompile Include="computer_test\chapter_one\abc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
