@@ -11,18 +11,26 @@ using namespace std;
  */
 
 int reverse(int i) {
+
 	int a = 0;
 	int temp = 1000;
-	
+
 	while (i) {
 		a = a + (i % 10)*temp;
 		i = i / 10;
 		temp = temp / 10;
 
+		//方法二(实用):
+		/*
+			a *= 10;
+			a += i % 10;
+			i /= 10;
+
+		 */
+
 	}
 
 	return a;
-
 }
 
 int main() {
